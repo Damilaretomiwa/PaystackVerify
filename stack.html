@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paystack API Example</title>
+    <link rel="stylesheet" href="stack.css">
+    <script src="stack.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <h1> Verify Your Account Name </h1>
+    <div class="input-group">
+        <label for="bankName">Select Bank:</label>
+
+        <select id="bankName"></select>
+    </div>
+    <div class="input-group">
+        <label for="accountNumber">Account Number:</label>
+        <input type="text" id="accountNumber" placeholder="Enter account number">
+    </div>
+    <button id="fetchButton">Verify </button>
+    <p id="result"></p>
+</div>
+</body>
+</html>
